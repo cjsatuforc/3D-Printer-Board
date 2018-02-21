@@ -1,1 +1,3 @@
-3D-Printer-Board
+# 3D-Printer-Board
+
+## Created By [Ed Green](http://ednerd.net)
