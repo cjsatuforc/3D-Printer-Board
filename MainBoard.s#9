@@ -1388,13 +1388,14 @@ http://www.xganon.com</description>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PCB1" gate="G$1" x="302.26" y="76.2" rot="R90"/>
+<instance part="PCB1" gate="G$1" x="302.26" y="121.92" rot="R90"/>
 <instance part="B1" gate="BOARD" x="40.64" y="220.98"/>
 <instance part="B2" gate="BOARD" x="40.64" y="264.16"/>
 <instance part="B3" gate="BOARD" x="40.64" y="304.8"/>
@@ -1403,7 +1404,7 @@ http://www.xganon.com</description>
 <instance part="B6" gate="BOARD" x="40.64" y="426.72"/>
 <instance part="B7" gate="BOARD" x="40.64" y="467.36"/>
 <instance part="B8" gate="BOARD" x="40.64" y="508"/>
-<instance part="SUPPLY1" gate="GND" x="236.22" y="68.58"/>
+<instance part="SUPPLY1" gate="GND" x="236.22" y="114.3"/>
 <instance part="SUPPLY3" gate="GND" x="60.96" y="203.2"/>
 <instance part="X1" gate="-1" x="78.74" y="228.6"/>
 <instance part="X1" gate="-2" x="78.74" y="226.06"/>
@@ -1437,13 +1438,14 @@ http://www.xganon.com</description>
 <instance part="X8" gate="-2" x="73.66" y="510.54"/>
 <instance part="X8" gate="-3" x="73.66" y="508"/>
 <instance part="X8" gate="-4" x="73.66" y="505.46"/>
-<instance part="SUPPLY2" gate="GND" x="93.98" y="99.06"/>
-<instance part="P+2" gate="VCC" x="193.04" y="81.28" rot="R180"/>
+<instance part="SUPPLY2" gate="GND" x="93.98" y="144.78"/>
+<instance part="P+2" gate="VCC" x="193.04" y="127" rot="R180"/>
 <instance part="U1" gate="U1" x="-27.94" y="365.76"/>
 <instance part="P+3" gate="VCC" x="-12.7" y="383.54"/>
 <instance part="SUPPLY4" gate="GND" x="-38.1" y="345.44"/>
-<instance part="U$1" gate="G$1" x="119.38" y="124.46"/>
+<instance part="U$1" gate="G$1" x="119.38" y="170.18"/>
 <instance part="P+1" gate="VCC" x="55.88" y="182.88" rot="R180"/>
+<instance part="P+4" gate="VCC" x="88.9" y="149.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1451,8 +1453,8 @@ http://www.xganon.com</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@9"/>
-<wire x1="231.14" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="106.68" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="152.4" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -1500,9 +1502,9 @@ http://www.xganon.com</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="96.52" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="93.98" y1="106.68" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="152.4" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1792,12 +1794,12 @@ http://www.xganon.com</description>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="5V@2"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="203.2" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="86.36" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="132.08" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$1" pin="5V@4"/>
-<wire x1="203.2" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="91.44" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
-<junction x="193.04" y="86.36"/>
+<wire x1="203.2" y1="137.16" x2="193.04" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="137.16" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
+<junction x="193.04" y="132.08"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="VCC"/>
@@ -1843,6 +1845,12 @@ http://www.xganon.com</description>
 <wire x1="53.34" y1="457.2" x2="55.88" y2="457.2" width="0.1524" layer="91"/>
 <junction x="55.88" y="457.2"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5.5V"/>
+<wire x1="96.52" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<wire x1="88.9" y1="157.48" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1957,8 +1965,8 @@ http://www.xganon.com</description>
 <segment>
 <pinref part="U1" gate="U1" pin="RCK"/>
 <wire x1="-35.56" y1="363.22" x2="-40.64" y2="363.22" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="363.22" x2="-40.64" y2="127" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="363.22" x2="-40.64" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="172.72" x2="96.52" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A2"/>
 </segment>
 </net>
@@ -1966,15 +1974,15 @@ http://www.xganon.com</description>
 <segment>
 <pinref part="U1" gate="U1" pin="SCK"/>
 <wire x1="-35.56" y1="370.84" x2="-43.18" y2="370.84" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="370.84" x2="-43.18" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="370.84" x2="-43.18" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="170.18" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<wire x1="96.52" y1="121.92" x2="-48.26" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="121.92" x2="-48.26" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="167.64" x2="-48.26" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="167.64" x2="-48.26" y2="375.92" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="SER"/>
 <wire x1="-48.26" y1="375.92" x2="-35.56" y2="375.92" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A4"/>
@@ -2011,8 +2019,8 @@ http://www.xganon.com</description>
 <pinref part="B2" gate="BOARD" pin="DIR"/>
 <wire x1="27.94" y1="276.86" x2="25.4" y2="276.86" width="0.1524" layer="91"/>
 <junction x="25.4" y="276.86"/>
-<wire x1="25.4" y1="233.68" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="233.68" x2="25.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 <junction x="25.4" y="233.68"/>
 <pinref part="U$1" gate="G$1" pin="A5"/>
 </segment>
@@ -2048,8 +2056,8 @@ http://www.xganon.com</description>
 <pinref part="B2" gate="BOARD" pin="STEP"/>
 <wire x1="27.94" y1="274.32" x2="22.86" y2="274.32" width="0.1524" layer="91"/>
 <junction x="22.86" y="274.32"/>
-<wire x1="96.52" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="116.84" x2="22.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="162.56" x2="22.86" y2="231.14" width="0.1524" layer="91"/>
 <junction x="22.86" y="231.14"/>
 <pinref part="U$1" gate="G$1" pin="A6"/>
 </segment>
@@ -2057,19 +2065,19 @@ http://www.xganon.com</description>
 <net name="N$51" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@6"/>
-<wire x1="203.2" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RX1"/>
-<wire x1="129.54" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="152.4" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="TX0"/>
-<wire x1="198.12" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="149.86" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$1" pin="GPIO14"/>
-<wire x1="203.2" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
